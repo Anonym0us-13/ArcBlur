@@ -1,0 +1,62 @@
+body {
+  /* Set background image */
+  background-image: url('https://i.imgur.com/FW1M2ig.png') !important;
+  background-size: cover !important;
+  background-attachment: fixed !important; /* This makes the background fixed */
+  background-repeat: no-repeat !important; /* Prevent the background from repeating */
+}
+
+/* Fix for Google scrolling error */
+body.srp {
+  overflow: auto !important;
+}
+
+/* Ensure scrolling is enabled on other websites */
+body:not(.srp) {
+  overflow: visible !important;
+}
+
+.sfbg {
+  /* Apply blur effect to the background */
+  filter: blur(20px);
+  /* Make the background color semi-transparent */
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Target specific classes on Google.com */
+body.srp .appbar {
+  /* Set initial opacity to fully visible */
+  opacity: 1 !important;
+  /* Add transition for opacity change */
+  transition: opacity 0.3s ease !important;
+  /* Set final opacity to fully transparent */
+  opacity: 0 !important;
+}
+
+/* Target elements with the class MjjYud */
+.MjjYud {
+  /* Add 10 pixels to the border width */
+  border-width: 2px !important; /* Adjust the value as needed */
+
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+}
+
+.IiOSLb .rsGxI.Ww4FFb, 
+.Ww4FFb {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+}
+
+/* Define hover effect */
+.IiOSLb .rsGxI.Ww4FFb:hover,
+.Ww4FFb:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
