@@ -18,3 +18,9 @@ An extension made to incorporate the Arc design language to all aspects of the b
 </p>
 </div>
 
+<br/>
+  
+<a href="https://mixed-emperor-3c3.notion.site/Arc-Plus-Bugs-7f18de6f047144d0a19cf14122a3cccb?pvs=4">Bugs</a>
+
+</p>
+</div>
