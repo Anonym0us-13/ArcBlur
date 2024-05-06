@@ -1,21 +1,19 @@
 {
-  "manifest_version": 3,
-  "name": "ArcWithBlur",
-  "version": "0.1",
-  "description": "Improves look and feel of webpages. Made for Arc on Windows",
-  "permissions": ["activeTab"],
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "css": ["styles.css"]
-    }
-  ],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "icon16.png",
-      "48": "icon48.png",
-      "128": "icon128.png"
-    }
-  }
+    "manifest_version": 3,
+    "name": "Arc with Blur",
+    "version": "1.0",
+    "description": "Improves look and feel of webpages. Made for Arc on Windows",
+    "permissions": ["activeTab"],
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["styles.css"],
+            "js": ["content.js"]
+        }
+    ]
 }
