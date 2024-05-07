@@ -1,9 +1,9 @@
 {
     "manifest_version": 3,
-    "name": "Arc with Blur",
+    "name": "Arc Plus",
     "version": "1.0",
     "description": "Improves look and feel of webpages. Made for Arc on Windows",
-    "permissions": ["activeTab"],
+    "permissions": ["activeTab", "storage", "contextMenus"],
     "icons": {
         "16": "icon.png",
         "48": "icon.png",
@@ -12,8 +12,31 @@
     "content_scripts": [
         {
             "matches": ["<all_urls>"],
-            "css": ["styles.css"],
+            "css": ["ArcPlusCore.css"],
             "js": ["content.js"]
         }
-    ]
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "libs/*",
+                "sites/*.css",
+                "sites/*.js",
+                "popup.html",
+                "popup.js" 
+            ],
+            "matches": ["<all_urls>"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    }
 }

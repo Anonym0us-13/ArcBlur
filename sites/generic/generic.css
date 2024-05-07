@@ -1,0 +1,6 @@
+body {
+  background-image: var(--ArcPlus-background-image) !important;
+  background-size: cover !important;
+  background-attachment: fixed !important; /* This makes the background fixed */
+  background-repeat: no-repeat !important; /* Prevent the background from repeating */
+}

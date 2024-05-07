@@ -1,0 +1,363 @@
+html:not(.style-scope) {
+--yt-spec-base-background: #ffffff00 !important;
+}
+
+html[dark], [dark] {
+--yt-spec-base-background: #ffffff00 !important;
+}
+
+ytd-app {
+  background: transparent !important;
+  /* Set background image */
+  background-image: var(--ArcPlus-background-image) !important;
+  background-size: cover !important;
+  background-attachment: fixed !important; /* This makes the background fixed */
+  background-repeat: no-repeat !important; /* Prevent the background from repeating */
+}
+
+#container.ytd-masthead {
+    background-color: rgba(255, 255, 255, 0) !important; /* White with 50% opacity */
+    backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+    border: 1px solid rgba(255, 255, 255, 0) !important; /* White with 50% opacity */;
+}
+
+#center.ytd-masthead:hover, #center.ytd-masthead:focus {
+    transform: scale(1.10);
+    transition: transform 0.8s ease;
+}
+
+
+#center.ytd-masthead {
+    transition: transform 0.8s ease;
+}
+
+ytd-mini-guide-renderer.ytd-app {
+    background-color: rgba(255, 255, 255, 0) !important; /* White with 50% opacity */
+    backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+    border: 1px solid rgba(255, 255, 255, 0) !important; /* White with 50% opacity */;
+}
+
+#container.ytd-searchbox {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+#search-icon-legacy.ytd-searchbox {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+ytd-searchbox[has-focus] #container.ytd-searchbox {
+  border-width: 0px !important; /* Adjust the value as needed */
+}
+
+#dismissible.ytd-rich-grid-media {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+#dismissible.ytd-rich-grid-media:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+ytd-rich-grid-slim-media {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+ytd-rich-grid-slim-media:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+.yt-spec-button-shape-next--overlay.yt-spec-button-shape-next--text {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+#guide-content.ytd-app {
+    background-color: rgba(255, 255, 255, 0) !important; /* White with 50% opacity */
+    backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+    border: 1px solid rgba(255, 255, 255, 0) !important; /* White with 50% opacity */;
+}
+
+#chips-wrapper.ytd-feed-filter-chip-bar-renderer {
+    background-color: rgba(255, 255, 255, 0) !important; /* White with 50% opacity */
+    backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+    border: 1px solid rgba(255, 255, 255, 0) !important; /* White with 50% opacity */;
+}
+
+ytd-guide-entry-renderer[active] {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:hover, #endpoint.yt-simple-endpoint.ytd-guide-entry-renderer:focus {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+#endpoint.yt-simple-endpoint.ytd-guide-entry-renderer {
+   margin-top: 7px !important;
+   margin-bottom: 7px !important;
+}
+
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--outline {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  border-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+.yt-spec-button-shape-next--mono.yt-spec-button-shape-next--outline:hover {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+  transform: scale(1.10);
+  transition: transform 0.8s ease;
+}
+
+.yt-spec-button-shape-next--icon-only-default {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+  border-size: 0px !important;
+}
+
+ytd-compact-video-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+ytd-compact-video-renderer:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+ytd-reel-item-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+ytd-reel-item-renderer:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+#description {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+ytd-rich-metadata-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+ytd-comment-simplebox-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding-left: calc(20px) !important;
+  padding-right: calc(20px) !important;
+  padding-top: calc(15px) !important;
+  padding-bottom: calc(15px) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+#placeholder-area.ytd-comment-simplebox-renderer {
+  padding-top: 7px !important;
+}
+
+ytd-comment-thread-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(15px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+
+ytd-comments-header-renderer {
+  background-color: transparent !important;
+  color: transparent !important;
+}
+
+#watch-while-engagement-panel
+    background-color: rgba(255, 255, 255, 0) !important; /* White with 50% opacity */
+    backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+    border: 1px solid rgba(255, 255, 255, 0) !important; /* White with 50% opacity */;
+}
+
+ytd-comments-header-renderer {
+    width: calc(-4) !important;
+    margin-right -15px !important;
+    padding-bottom -10px !important;
+    margin-bottom -100px !important;
+}
+
+ytd-expanded-shelf-contents-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+ytd-expanded-shelf-contents-renderer:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+ytd-grid-playlist-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 8px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+  margin: calc(10px) !important;
+}
+
+ytd-grid-playlist-renderer:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+ytd-backstage-post-thread-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 0px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(20px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+ytd-backstage-post-thread-renderer:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
+
+ytd-backstage-post-dialog-renderer {
+  background-color: rgba(31, 31, 31, 0.5) !important; /* Semi-transparent black */
+  /* Add 10 pixels to the border width */
+
+  border-width: 0px !important; /* Adjust the value as needed */
+  /* Add rounded corners */
+  border-radius: 10px !important; /* Adjust the value as needed */
+  padding: calc(9px) !important; /* Add 4 pixels to each side */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7) !important; /* Add a light shadow */
+  /* Add transition for smooth animation */
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  backdrop-filter: blur(4px) saturate(180%) brightness(70%);
+}
+
+ytd-backstage-post-dialog-renderer:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+}
